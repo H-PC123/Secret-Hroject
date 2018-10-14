@@ -8,9 +8,15 @@
 #ifndef SRC_PLAYER_H_
 #define SRC_PLAYER_H_
 
-class player{
-	private string name;
-	private int playerNo;
+class Player{
+	private:
+	std::string name;
+	int playerNo;
+
+	public:
+	Player();
+	~Player();
+
 };
 
 #endif /* SRC_PLAYER_H_ */
